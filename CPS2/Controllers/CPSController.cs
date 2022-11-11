@@ -138,6 +138,7 @@ namespace CPS.Controllers
             }
         }
         //Holiday calender Setup put method
+        //PUT: api/putholidaycalendersetup/{id}
         [HttpPut("putholidaycalendersetup/{id}")]
         public void Puthcs(int id, [FromBody] Ecfsetup value)
         {
