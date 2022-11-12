@@ -127,6 +127,7 @@ namespace CPS.Controllers
             }
         }
         //Energy Convension Factor Setup put method
+        //PUT: api/putenergyconversionfactor/{id}
         [HttpPut("putenergyconversionfactor/{id}")]
         public void Putecf(int id, [FromBody] Ecfsetup value)
         {
